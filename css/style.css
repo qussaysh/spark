@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    
+    direction: ltr;
+    
+}
+.title {
+    padding-top : 100px;
+    text-align: center;
+}
+.title h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.title span {
+    display: block;
+    height: 2.5px;
+    width: 60px;
+    margin: auto;
+    background-color: #000;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+section {
+    margin-top: 100px;
+}
+
+/* Header */
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+nav .navbar-brand {
+    font-size: 25px;
+    color: #007bff;
+}
+nav a  {
+    font-weight: 600;
+}
+
+/* Home Section */
+.home {
+    background-image: url(../images/back4.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.home-content {
+    width: 50%;
+    text-align: center;
+    padding: 70px;
+    
+    
+}
+.home-content h3 , p {
+    margin-top: 100px;
+}
+.home-content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.home-content p {
+    line-height: 1,7;
+    margin-top: 10px;
+    color: #000;
+}
+@media (max-width: 767.98px) {
+    .home-content  {
+        width: 500px;
+        text-align: left;
+    }
+    .home-content p {
+        color: #fff;
+    }
+    
+ }
+
+ /* About Section */
+
+.about-item {
+    padding: 10px 80px;
+}
+.about-item h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #007bff;
+}
+.about-item p {
+    line-height: 1.7;
+    color: #5e5e5e;
+}
+@media (max-width: 767.98px) {
+    .about-item {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .about-item p {
+        line-height: 1.8;
+    }
+    
+ }
